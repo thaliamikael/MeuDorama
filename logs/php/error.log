@@ -1,0 +1,17 @@
+[08-Dec-2022 19:24:38 UTC] PHP Warning:  Use of undefined constant SECURE_AUTH_KEY - assumed 'SECURE_AUTH_KEY' (this will throw an Error in a future version of PHP) in C:\Users\Instrutor\Local Sites\meudorama\app\public\wp-content\plugins\royal-elementor-addons\freemius\includes\class-freemius.php on line 4061
+[08-Dec-2022 19:24:38 UTC] PHP Stack trace:
+[08-Dec-2022 19:24:38 UTC] PHP   1. {main}() C:\Users\Instrutor\Local Sites\meudorama\app\public\wp-admin\admin-ajax.php:0
+[08-Dec-2022 19:24:38 UTC] PHP   2. do_action() C:\Users\Instrutor\Local Sites\meudorama\app\public\wp-admin\admin-ajax.php:188
+[08-Dec-2022 19:24:38 UTC] PHP   3. WP_Hook->do_action() C:\Users\Instrutor\Local Sites\meudorama\app\public\wp-includes\plugin.php:517
+[08-Dec-2022 19:24:38 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Instrutor\Local Sites\meudorama\app\public\wp-includes\class-wp-hook.php:332
+[08-Dec-2022 19:24:38 UTC] PHP   5. REK_Welcome_Notice->install_activate_royal_addons() C:\Users\Instrutor\Local Sites\meudorama\app\public\wp-includes\class-wp-hook.php:308
+[08-Dec-2022 19:24:38 UTC] PHP   6. REK_Welcome_Notice->activate_plugin() C:\Users\Instrutor\Local Sites\meudorama\app\public\wp-content\themes\royal-elementor-kit\inc\activation\class-welcome-notice.php:256
+[08-Dec-2022 19:24:38 UTC] PHP   7. activate_plugin() C:\Users\Instrutor\Local Sites\meudorama\app\public\wp-content\themes\royal-elementor-kit\inc\activation\class-welcome-notice.php:188
+[08-Dec-2022 19:24:38 UTC] PHP   8. plugin_sandbox_scrape() C:\Users\Instrutor\Local Sites\meudorama\app\public\wp-admin\includes\plugin.php:661
+[08-Dec-2022 19:24:38 UTC] PHP   9. include_once() C:\Users\Instrutor\Local Sites\meudorama\app\public\wp-admin\includes\plugin.php:2314
+[08-Dec-2022 19:24:38 UTC] PHP  10. wpr_fs() C:\Users\Instrutor\Local Sites\meudorama\app\public\wp-content\plugins\royal-elementor-addons\wpr-addons.php:78
+[08-Dec-2022 19:24:38 UTC] PHP  11. fs_dynamic_init() C:\Users\Instrutor\Local Sites\meudorama\app\public\wp-content\plugins\royal-elementor-addons\wpr-addons.php:54
+[08-Dec-2022 19:24:38 UTC] PHP  12. Freemius->dynamic_init() C:\Users\Instrutor\Local Sites\meudorama\app\public\wp-content\plugins\royal-elementor-addons\freemius\start.php:522
+[08-Dec-2022 19:24:38 UTC] PHP  13. Freemius->has_api_connectivity() C:\Users\Instrutor\Local Sites\meudorama\app\public\wp-content\plugins\royal-elementor-addons\freemius\includes\class-freemius.php:4818
+[08-Dec-2022 19:24:38 UTC] PHP  14. Freemius->ping() C:\Users\Instrutor\Local Sites\meudorama\app\public\wp-content\plugins\royal-elementor-addons\freemius\includes\class-freemius.php:3964
+[08-Dec-2022 19:24:38 UTC] PHP  15. Freemius->get_anonymous_id() C:\Users\Instrutor\Local Sites\meudorama\app\public\wp-content\plugins\royal-elementor-addons\freemius\includes\class-freemius.php:3912
